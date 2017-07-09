@@ -1,21 +1,68 @@
 body{
-  background-image: url(images/snow.jpg);
-  background-color: #E4EEF5;
-  margin: 27px 0 0 0 ;
+  background-image: url(images/background.jpg);
+  background-color: #73746F;
+  margin: 0;
   padding: 0;
+  /*color: #191970;*/
+
 }
-#nvk{
-  font-size: 75px;
-  float: left;
-  width: 20%;
-  height: 20%;
+#container{
+  width: 1260px;
+  height: auto;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px;
+  border-left: 2px solid black;
 }
 .section{
-  border-bottom: 5px solid #808080;
+  border-bottom: 2px solid black;
   text-align: center;
-  font-size: 33px;
+  font-size: 47px;
   font-family: "Amaranth", cursive;
-  margin: 7px auto;
-  width: 18%;
+  width: 17%
+  margin: 10px 0 0 40px:
+}                                   /*House the heads of the 4 major sections*/
 
+#menu{
+  float:right;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  padding: 2px;
+  font-size: 20px;
+  width: 12%;
+  position: fixed;
+  top: 13%;
+  left: 84%;
+  height: 45%;
+  background-color: #2F4F4F;
+  border: solid 2px black;
+}                       /*Houses the shortcuts to other sections on the page*/
+.victor{                      /*houses the image on the home page*/
+  height: 640px;
+  width: 603px;
+  margin-left: 40%;
+  text-align: center;
+}
+.detail{
+  font-size: 27px;
+}
+#intro {                                  /*Introduction details name-age etc*/
+  width: 12%;
+  border-bottom: solid black 2px;
+  margin-left: 70px;
+  margin-top: 10px;
+  text-align: center;
+}
+a:link{
+  color: red; text-decoration: none;
+}
+a:visited{
+  color: yellow;
+}
+a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.li {list-style: none;
 }
