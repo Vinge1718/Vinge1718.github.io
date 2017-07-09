@@ -3,6 +3,7 @@ body{
   background-color: #73746F;
   margin: 0;
   padding: 0;
+  background-repeat: no-repeat;
   /*color: #191970;*/
 
 }
@@ -87,28 +88,60 @@ a:hover{
     color: #7FFFD4;
 }
 #educationcontainer{
-  { height:auto;
-    margin: auto;
-    width: 900px;
-    border: 2px solid #000000;}
+  height: auto;
+  width: 900px;
+  margin: auto;
 }
-#fr1{
+#educationcontainer #fr{
+  height:auto;
+  margin: auto;
+  width: 900px;
+  padding: 20px;
+}
+ #fr #fr1{
   font-size: 27px;
-  float: left;
-  width: 30%;
+  width: 45%;
   color: #7CFC00;
-  height:60px;
+  height:auto;
 }
-#fr2 {
+#fr #fr2 {
   font-size: 27px;
-  float: right;
   width: 50%;
   color: #7CFC00;
-  height: 60px;
+  height: auto;
 }
-#sr1{
+#educationcontainer #sr{
   height: auto;
   margin: auto;
   width: 900px;
-
+  color: #7CFC00;
+  padding: 20px;
+}
+#sr #sr1{
+  font-size: 27px;
+  width: 50%;
+  color: #7CFC00;
+  height: auto;
+}
+#sr #sr2{
+  font-size: 27px;
+  width: 30%;
+  color: #7CFC00;
+  height:auto;
+}
+#educationcontainer #tr{
+  height: auto;
+  margin: auto;
+  width: auto;
+  color: #7CFC00;
+}
+#tr #tr1{
+  width: auto;
+  color: #7CFC00;
+  height: auto;
+}
+#tr #tr3 {
+  width: auto;
+  color: #7CFC00;
+  height: auto;
 }
