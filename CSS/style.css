@@ -7,7 +7,7 @@ body{
 
 }
 #container{
-  width: 1260px;
+  width: 1160px;
   height: auto;
   margin: 0 auto;
   overflow: auto;
@@ -65,4 +65,15 @@ a:hover{
   color: white;
 }
 .li {list-style: none;
+}
+#about{
+  text-align: center;
+  font-size: 27px;
+  text-decoration: underline;
+  color: white;
+}
+#aboutcontent{
+  font-size: 22px;
+  text-align: center;
+  color: #7FFFD4;
 }
