@@ -77,3 +77,38 @@ a:hover{
   text-align: center;
   color: #7FFFD4;
 }
+#educationtitle{
+    width: 12%;
+    border-bottom: solid #7FFFD4 2px;
+    margin-left: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 27px;
+    color: #7FFFD4;
+}
+#educationcontainer{
+  { height:auto;
+    margin: auto;
+    width: 900px;
+    border: 2px solid #000000;}
+}
+#fr1{
+  font-size: 27px;
+  float: left;
+  width: 30%;
+  color: #7CFC00;
+  height:60px;
+}
+#fr2 {
+  font-size: 27px;
+  float: right;
+  width: 50%;
+  color: #7CFC00;
+  height: 60px;
+}
+#sr1{
+  height: auto;
+  margin: auto;
+  width: 900px;
+
+}
