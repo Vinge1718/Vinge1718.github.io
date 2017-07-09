@@ -1,0 +1,21 @@
+body{
+  background-image: url(images/snow.jpg);
+  background-color: #E4EEF5;
+  margin: 27px 0 0 0 ;
+  padding: 0;
+}
+#nvk{
+  font-size: 75px;
+  float: left;
+  width: 20%;
+  height: 20%;
+}
+.section{
+  border-bottom: 5px solid #808080;
+  text-align: center;
+  font-size: 33px;
+  font-family: "Amaranth", cursive;
+  margin: 7px auto;
+  width: 18%;
+
+}
