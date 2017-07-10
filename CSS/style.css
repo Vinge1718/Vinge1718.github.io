@@ -161,3 +161,17 @@ text-decoration: underline;
 #fthr #fthr2 {
 font-size: 27px;
 }
+span{
+  font-family: cursive;
+  font-weight: bold;
+  color: #DC143C;
+}
+#portfolio{
+  width: 900px;
+  height: auto;
+  font-size: 27px;
+  text-align: center;
+}
+#projectsdone{
+  text-align: left;
+}
