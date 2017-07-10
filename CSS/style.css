@@ -103,6 +103,7 @@ a:hover{
   width: 45%;
   color: #7CFC00;
   height:auto;
+  text-decoration: underline;
 }
 #fr #fr2 {
   font-size: 27px;
@@ -122,6 +123,7 @@ a:hover{
   width: 50%;
   color: #7CFC00;
   height: auto;
+  text-decoration: underline;
 }
 #sr #sr2{
   font-size: 27px;
@@ -139,10 +141,23 @@ a:hover{
   width: auto;
   color: #7CFC00;
   height: auto;
-
+  text-decoration: underline;
 }
 #tr #tr2 {
   width: auto;
   color: #7CFC00;
   height: auto;
+}
+#educationcontainer #fthr{
+  width: 900px;
+  height: auto;
+  margin: auto;
+  color: black;
+}
+#fthr #fthr1 {
+font-size: 27px;
+text-decoration: underline;
+}
+#fthr #fthr2 {
+font-size: 27px;
 }
