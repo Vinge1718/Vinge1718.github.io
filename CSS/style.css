@@ -10,7 +10,7 @@ body{
 #container{
   width: 1160px;
   height: auto;
-  margin: 0 auto;
+  margin: auto;
   overflow: auto;
   padding: 10px;
   border-left: 2px solid black;
@@ -18,7 +18,7 @@ body{
 .section{
   border-bottom: 2px solid black;
   text-align: center;
-  font-size: 47px;
+  font-size: 55px;
   font-family: "Amaranth", cursive;
   width: 17%
   margin: 10px 0 0 40px:
@@ -47,6 +47,7 @@ body{
 }
 .detail{
   font-size: 27px;
+  margin-left: 20px;
 }
 #intro {                                  /*Introduction details name-age etc*/
   width: 12%;
@@ -182,4 +183,15 @@ span{
 #email img{
   height: 70px;
   width: 70px;
+}
+#fifthrow{
+  width: auto;
+  font-size: 27px;
+  color: black;
+  height: auto;
+}
+#fifthrow h3{
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
 }
