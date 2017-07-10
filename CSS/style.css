@@ -175,7 +175,11 @@ span{
 #projectsdone{
   text-align: left;
 }
-#email{
-  text-align: left;
-  color: white;
+#email ol li{
+  list-style: none;
+  padding: 5px;
+}
+#email img{
+  height: 70px;
+  width: 70px;
 }
