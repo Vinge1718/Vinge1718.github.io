@@ -35,7 +35,7 @@ body{
   position: fixed;
   top: 13%;
   left: 84%;
-  height: 30%;
+  height: 45%;
   background-color: #2F4F4F;
   border: solid 2px black;
 }                       /*Houses the shortcuts to other sections on the page*/
@@ -70,7 +70,8 @@ a:hover{
 }
 #about{
   text-align: center;
-  font-size: 27px;
+  font-size: 55px;
+  font-family:  "Amaranth", cursive;
   text-decoration: underline;
   color: white;
 }
