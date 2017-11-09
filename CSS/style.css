@@ -200,20 +200,4 @@ li.active a, li.active a:hover{
 }
 #email ol li{
   list-style: none;
-  padding: 5px;
-}
-#email img{
-  height: 70px;
-  width: 70px;
-}
-#fifthrow{
-  width: auto;
-  font-size: 27px;
-  color: black;
-  height: auto;
-}
-#fifthrow h3{
-  font-style: italic;
-  font-weight: bold;
-  text-decoration: underline;
 }
