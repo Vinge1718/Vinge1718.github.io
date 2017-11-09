@@ -25,13 +25,7 @@ body, html {
   text-decoration: underline;
 }
 
-.section{
-  color: white;
-  font-size: 55px;
-  font-family: "Cinzel";
-  text-align: center;
-  padding-top: 170px;
-}
+
 em{
   text-decoration: underline;
 
@@ -80,14 +74,16 @@ a:hover{
   text-decoration: underline;
   color: white;
 }
-
-#about{
-  text-align: center;
-  text-decoration: underline;
+.section{
   color: white;
-  font-family: serif;
+  font-size: 45px;
+  font-family: "Cinzel";
+  text-align: center;
+  padding: 40px 0px 40px 0px;
   font-variant: small-caps;
+  text-decoration: underline;
 }
+
 #edu{
   background-position: center;
   background-image: url(images/background1.jpg);
@@ -159,13 +155,8 @@ li.active a, li.active a:hover{
 
 /*-----------------------------------------End of About section tabulation styling*/
 
-#portfolioTitle{
-  text-align: center;
-  text-decoration: underline;
-  color: white;
-  font-family: serif;
-  font-variant: small-caps;
-}
+
+/*------------------------------------------Portfolio background*/
 
 #portfolio{
   background-position: center;
@@ -176,6 +167,10 @@ li.active a, li.active a:hover{
   width: auto;
 }
 
+
+/*------------------------------------------Contacts background*/
+
+
 #contacts{
   background-position: center;
   background-image: url(images/background3.jpg);
@@ -184,14 +179,24 @@ li.active a, li.active a:hover{
   height: 100%;
   width: auto;
 }
-span{
-  font-family: cursive;
-  font-weight: bold;
-  color: #DC143C;
+#projectTitles{
+  text-align: center;
+  color: #efefef;
+  font-size: 24px;
+  padding-bottom: 47px;
 }
-
-#projectsdone{
-  text-align: left;
+#PortfolioImage{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+#portfolioContainer{
+  background-color: rgba(0, 0, 0, .4);
+}
+#email{
+  color: white;
+  font-size: 15px;
+  text-align: center;
 }
 #email ol li{
   list-style: none;
