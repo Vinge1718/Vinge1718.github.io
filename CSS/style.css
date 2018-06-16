@@ -2,6 +2,8 @@ body{
   background-color: #77787a;
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
+  text-align: center;
   /*color: #191970;*/
 }
 body, html {
@@ -14,6 +16,16 @@ body, html {
   background-size:cover;
   height: 100%;
   width: auto;
+}
+.section{
+    color: white;
+    font-size: 45px;
+    font-family: "Cinzel";
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    font-variant: small-caps;
+    text-decoration: underline;
+    transition: all 4s ease-in-out;
 }
 
 #intro{
@@ -74,15 +86,7 @@ a:hover{
   text-decoration: underline;
   color: white;
 }
-.section{
-  color: white;
-  font-size: 45px;
-  font-family: "Cinzel";
-  text-align: center;
-  padding: 40px 0px 40px 0px;
-  font-variant: small-caps;
-  text-decoration: underline;
-}
+
 
 #edu{
   background-position: center;
@@ -171,14 +175,56 @@ li.active a, li.active a:hover{
 /*------------------------------------------Contacts background*/
 
 
+
+.contact-title{
+  font-size: 45px;
+  font-family: "Cinzel";
+  text-align: center;
+  padding: 40px 0px 40px 0px;
+  font-variant: small-caps;
+  text-decoration: underline;
+  transition: all 4s ease-in-out;
+}
+.contact-form{
+    text-align: center;
+    margin-left: 30%;
+    color: white;
+    background-color: inherit;
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 17px;
+}
+input{
+    height: 27px;
+}
+form .submit{
+    background: green;
+    border-color: transparent;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+form{
+    transition: all 4s ease-in-out;
+    color: white;
+}
+
 #contacts{
   background-position: center;
-  background-image: url(images/background3.jpg);
+  background:linear-gradient(rgba(10, 10, 0, 15), rgba(10, 10, 50, 1)), url(images/background3.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: center;
   height: 100%;
   width: auto;
+  text-align: center;
+  color:#ffffff;
 }
+
 #projectTitles{
   text-align: center;
   color: #efefef;
@@ -192,6 +238,8 @@ li.active a, li.active a:hover{
 }
 #portfolioContainer{
   background-color: rgba(0, 0, 0, .4);
+  margin: 0;
+  padding: 0;
 }
 #email{
   color: white;
@@ -200,4 +248,30 @@ li.active a, li.active a:hover{
 }
 #email ol li{
   list-style: none;
+}
+
+.footer{
+    background: url(images/footer.png)
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+.social-icon a{
+    margin: 0 12px 20px 12px;
+    display: inline-block;;
+}
+
+.social-icon .fa{
+    font-size:27px;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.bordernow{
+    width: 110px;
+    border: 1px solid white;
+    margin: 0 auto;
 }

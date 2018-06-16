@@ -1,12 +1,16 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <script src="JS/jquery.js"></script>
-  <script src="JS/bootstrap.min.js"></script>
-  <title>Victor K. N</title>
-  <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-  <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
-  <script src="JS/script.js"></script>
+    <!-- <meta name="viewport" content="width=device-width", initial-scale=1"> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <title>Victor K. N</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="CSS/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
 </head>
 <body class="container-fluid">
 
@@ -16,14 +20,12 @@
   <div id="firstpage" class="row">
     <div class="col-sm-10 col-xs-12">
       <div class="section">
-        VICTOR
+        <p class="animated fadeInDown">VICTOR</p>
         <br>
-        K. N
+        <p class="animated slideInLeft">K. N</p>
         <br>
-        <em>PORTFOLIO</em>
+        <p class="animated rollIn"><em>PORTFOLIO</em></p>
         </div>
-        <h3 id="intro">Hi, my name is Victor King'e. I'm an app developer in Nairobi who is open to actualizing new ideas and improving on old ones<br>
-          ...over some good food!<h3>
     </div>
 
     <div class="col-sm-2 col-xs-12">
@@ -186,33 +188,68 @@
 
                       <!--_________________________________Contatcs_______________________________ -->
 
-  <div class="row" id="contacts">
-    <div class="section"> <a name="contacts" title="Contacts"></a>Contacts</div>
-      <div id="email"> You can get in touch via:
-        <ol>
-          <br>
-          <li>
-            <a href="mailto:vnjonge@yahoo.com" target="_blank"> <img height= "68" src="CSS/images/yahoo.png" alt="yahoo" title="Yahoo"></a>
-          </li>
-          <li>Mail</li>
-          <li>
-            <a href="https://www.facebook.com/" target="_blank"> <img height= "68" src="CSS/images/Facebook-Logo.png" alt="facebook" title="Facebook"></a>
-          </li>
-          <li>Facebook</li>
-          <li>
-            <a href="https://twitter.com/" target="_blank"> <img height= "68" src="CSS/images/twitter.png" alt="twitter" title="Twitter"></a>
-          </li>
-          <li>Twitter</li>
-          <li>
-              <a href="https://www.instagram.com/" target="_blank"> <img height= "68" src="CSS/images/ig.png" alt="Instagram" title="Instagram"></a>
-          </li>
-          <li>Instagram</li>
-          <li>
-              <a href="https://github.com/Vinge1718" target="_blank"> <img height= "68" src="CSS/images/github.png" alt="github" title="github"></a>
-          </li>
-          <li>Github</li>
-        </ol>
-      </div>
+  <div id="contacts">
+    <div class="contact-title"> <a name="contacts" title="Contacts"></a>Contacts
+    <br><h3 class="">Email me here with some details</h3><br>
     </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your email" required><br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND EMAIL">
+        </form>
+    </div>
+
+      <!-- <div id="email"> You can get also reach me through
+
+            <a href="mailto:vnjonge@yahoo.com" target="_blank"> <img height= "68" src="CSS/images/yahoo.png" alt="yahoo" title="Yahoo"></a>
+
+         Mail
+
+            <a href="https://www.facebook.com/" target="_blank"> <img height= "68" src="CSS/images/Facebook-Logo.png" alt="facebook" title="Facebook"></a>
+
+          Facebook
+
+            <a href="https://twitter.com/" target="_blank"> <img height= "68" src="CSS/images/twitter.png" alt="twitter" title="Twitter"></a>
+
+          Twitter
+
+              <a href="https://www.instagram.com/" target="_blank"> <img height= "68" src="CSS/images/ig.png" alt="Instagram" title="Instagram"></a>
+
+        Instagram
+
+              <a href="https://github.com/Vinge1718" target="_blank"> <img height= "68" src="CSS/images/github.png" alt="github" title="github"></a>
+
+         Github
+
+         <i class="far fa-copyright"></i> copyright icon
+
+      </div> -->
+      <footer class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-12 text-center">
+                      <div class="social-icon">
+                          <a href="https://www.facebook.com/victor.pablo.906" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+
+                          <a href="https://twitter.com/One_Pabulo" target="_blank"><i class="fab fa-twitter" ></i></a>
+
+                          <a href="https://github.com/Vinge1718" target="_blank"><i class="fab fa-github" ></i></a>
+
+                          <a href="https://www.googleplus.com/" target="_blank"><i class="fab fa-google-plus" ></i></a>
+                      </div>
+                      <div class="copyright">
+                          <p>
+                              &copy; <b>vinge1718.github.io</b>
+                          </p>
+                          <div class="bordernow"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+    </div>
+
   </body>
 </html>
