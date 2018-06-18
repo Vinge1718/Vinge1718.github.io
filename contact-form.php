@@ -3,7 +3,7 @@
     $visitor_email = $_Post['email'];
     $message = $_POST['message'];
 
-    $email_from = 'vnjonge@yahoo.com';
+    $email_from = 'https://vinge1718.github.io/';
     $email_subject = "New enquiry from Portfolio";
     $email_body = "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
