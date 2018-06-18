@@ -203,10 +203,16 @@ input{
     height: 27px;
 }
 form .submit{
-    background: green;
+    background: orangered;
     border-color: transparent;
     font-weight: bold;
     letter-spacing: 2px;
+    color: white;;
+}
+
+form .submit:hover {
+    background-color: green;
+    cursor: pointer;
 }
 form{
     transition: all 4s ease-in-out;
