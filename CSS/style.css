@@ -1,283 +1,71 @@
-body{
-  background-color: #77787a;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  text-align: center;
-  /*color: #191970;*/
+.langContainer{
+    width: 75%;
+    height: 74%;
+    display: flex;
+    box-sizing: border-box;
 }
-body, html {
-  height: 100%;
-}
-#firstpage{
-  background-position: center;
-  background-image: url(images/background.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 100%;
-  width: auto;
-}
-.section{
-    color: white;
-    font-size: 45px;
-    font-family: "Cinzel";
+
+.langContainer .box{
+    width: 20vw;
     text-align: center;
-    padding: 40px 0px 40px 0px;
-    font-variant: small-caps;
-    text-decoration: underline;
-    transition: all 4s ease-in-out;
+    line-height: 40vh;
+    flex-grow: 1;
+    background-image: cover;
+    transition: 1s;
 }
 
-#intro{
-  color: #f7fff7;
-  padding-top: 15%;
+h4{
+    margin: 0;
+    padding: 0;
+    line-height: 33vh;
+    font-size: 1em;
+    background: rgba(0,0,0,0.8);
+    transition: .5s;
+    padding-top: 30%;
 }
 
-#tabContentHeader{
-  text-decoration: underline;
-}
-
-
-em{
-  text-decoration: underline;
-
-}
-                            /*House the heads of the 4 major sections*/
-#menu{
-  float: right;
-  text-align: center;
-  padding: 0;
-  width: 215px;
-  position: fixed;
-  top: 50px;
-}
-.menu{
-  background: rgba(0, 0, 0, .4);
-  color: white;
-  font-family: "Didot";
-  margin-bottom: 20px;
-  padding:5px;
-
-
-
-}
-                            /*Houses the shortcuts to other sections on the page*/
-.victor{                      /*houses the image on the home page*/
-  height: 214px;
-  width: 200px;
-  border-radius: 40%;
-}
-.detail{
-  text-decoration: underline;
-  font-weight: bold;
-  padding-left: 50px;
-  color: #abc6c4;
-}
-p strong{
-  color: #f9fcfc;
-}
-a:link{
-  color: white; text-decoration: none;
-}
-a:visited{
-  color: #dae2ef;
-}
-a:hover{
-  text-decoration: underline;
-  color: white;
-}
-
-
-#edu{
-  background-position: center;
-  background-image: url(images/background1.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 100%;
-  width: auto;
-}
-
-/*-------------------------------------About section tabulation styling*/
-
-.tabs{
-  width: 100%;
-  display: inline-block;
-}
-
-/*Tab links*/
-
-.tab-links:after{
-  display: block;
-  clear: both;
-  content: '';
-}
-
-.tab-links li{
-  margin: 0px 7px;
-  float: left;
-  list-style: none;
-}
-
-  .tab-links a{
-    padding: 9px 15px;
-    display: inline-block;
-    border-radius: 3px 3px 0px 0px;
-    background: #2b3544;
-    font-size: 17px;
-    font-weight: 700;
-    color: #fff;
-    transition: all linear 0.2s;
-  }
-
-  .tab-links a:hover{
-    background: #a7cce5;
-    text-decoration: none;
-  }
-
-li.active a, li.active a:hover{
-  background: #fff;
-  color: #09081c;
-}
-
-
-/*Content of Tabs*/
-
-.tab-content{
-  padding: 15px;
-  border-radius: 3px;
-  box-shadow: -1px 1px 1px rgba(0,0,0,0.2);
-  background: #fff;
-}
-
-  .tab{
-    display: none;
-  }
-
-  .tab.active{
-    display: block;
-  }
-
-/*-----------------------------------------End of About section tabulation styling*/
-
-
-/*------------------------------------------Portfolio background*/
-
-#portfolio{
-  background-position: center;
-  background-image: url(images/background2.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  height: 100%;
-  width: auto;
-}
-
-
-/*------------------------------------------Contacts background*/
-
-
-
-.contact-title{
-  font-size: 45px;
-  font-family: "Cinzel";
-  text-align: center;
-  padding: 40px 0px 40px 0px;
-  font-variant: small-caps;
-  text-decoration: underline;
-  transition: all 4s ease-in-out;
-}
-.contact-form{
-    text-align: center;
-    margin-left: 30%;
-    color: white;
-    background-color: inherit;
-}
-.form-control{
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid gray;
-    font-size: 17px;
-}
-input{
-    height: 27px;
-}
-form .submit{
-    background: orangered;
-    border-color: transparent;
-    font-weight: bold;
+h4 span{
+    background: rgba(255,255,255,0);
+    width:100%;
+    transition: 1s;
+    padding: 15px 10px;
+    text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;;
 }
 
-form .submit:hover {
-    background-color: green;
-    cursor: pointer;
-}
-form{
-    transition: all 4s ease-in-out;
-    color: white;
+.box:hover h4 span{
+    color: #262626;
+    background: rgba(255,255,255,.8);
+    letter-spacing: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
-#contacts{
-  background-position: center;
-  background:linear-gradient(rgba(10, 10, 0, 15), rgba(10, 10, 50, 1)), url(images/background3.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position: center;
-  height: 100%;
-  width: auto;
-  text-align: center;
-  color:#ffffff;
+.box:hover h4{
+    background: rgba(0,0,0,0);
 }
 
-#projectTitles{
-  text-align: center;
-  color: #efefef;
-  font-size: 24px;
-  padding-bottom: 47px;
-}
-#PortfolioImage{
-  color: white;
-  font-size: 15px;
-  text-align: center;
-}
-#portfolioContainer{
-  background-color: rgba(0, 0, 0, .4);
-  margin: 0;
-  padding: 0;
-}
-#email{
-  color: white;
-  font-size: 15px;
-  text-align: center;
-}
-#email ol li{
-  list-style: none;
+.box:hover{
+    width: 25vw;
 }
 
-.footer{
-    background: url(images/footer.png)
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 120px;
-    padding-bottom: 10px;
+.langContainer .box:nth-child(1){
+    background: url("../img/java.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+.langContainer .box:nth-child(2){
+    background: url("../img/android.jpg");
+    background-repeat: no-repeat;
+    background-size: 240px;
+}
+.langContainer .box:nth-child(3){
+    background: url("../img/js.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px;
 }
 
-.social-icon a{
-    margin: 0 12px 20px 12px;
-    display: inline-block;;
-}
-
-.social-icon .fa{
-    font-size:27px;
-    width: 90px;
-    height: 90px;
-    text-align: center;
-}
-
-.bordernow{
-    width: 110px;
-    border: 1px solid white;
-    margin: 0 auto;
+.langContainer .box:nth-child(4){
+    background: url("../img/libGDX.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
 }
