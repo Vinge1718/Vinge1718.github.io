@@ -18,9 +18,9 @@
   "homepage": "https://github.com/kevin-powell/portfolio-with-css-grid#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^4.0.1"
   },
   "dependencies": {}
 }
