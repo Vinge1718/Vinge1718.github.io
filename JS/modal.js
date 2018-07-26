@@ -2,7 +2,7 @@ const portfolioContainer = document.querySelector('.portfolio-items')
 
 portfolioContainer.addEventListener('click', e => {
   // console.log(e)
-  // e.preventDefault()
+  e.preventDefault()
 
   const modalToggle = e.target.closest('.portfolio-link')
   // console.log(modalToggle)
@@ -27,6 +27,8 @@ portfolioContainer.addEventListener('click', e => {
     modal.addEventListener('animationend', modalClose)
     //document.body.style.overflowY = 'scroll'
   })
+
+  
 
   document.addEventListener('keydown', e => {
     if ( e.keyCode === 27 ) {
