@@ -9,7 +9,6 @@
 
 .about-img {
   max-height: 25em;
-  // border-radius: 50%;
 
   @media (min-width: 42em) {
     float: left;
@@ -37,7 +36,7 @@
     grid-row: 1 / 2;
 
     @include mq {
-      grid-row: 2 / 4;
+      grid-row: 1 / 4;
     }
   }
 

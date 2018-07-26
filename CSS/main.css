@@ -377,7 +377,7 @@ h2 {
       font-size: 3rem; } }
 
 .menu-button {
-  position: absolute;
+  position: fixed;
   top: 3em;
   left: 3em;
   background: transparent;
@@ -387,7 +387,7 @@ h2 {
   outline: none; }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -559,7 +559,7 @@ nav a {
     grid-row: 1 / 2; }
     @media (min-width: 50em) {
       .about-img {
-        grid-row: 2 / 4; } }
+        grid-row: 1 / 4; } }
   .about-title {
     grid-column: name / port;
     grid-row: 1 / 2;
@@ -684,12 +684,6 @@ nav a {
   background-size: cover;
   background-position: center; }
 
-.header-one {
-  background-image: url(../img/portfolio-01.jpg); }
-
-.header-two {
-  background-image: url(../img/portfolio-02.jpg); }
-
 .portfolio-title-box {
   background: rgba(3, 175, 194, 0.75);
   padding: 3em 0 3em 3em;
@@ -708,6 +702,13 @@ nav a {
 
 .portfolio-subtitle {
   font-size: 1rem; }
+
+.github-repo {
+  color: white;
+  float: right;
+  margin-right: 5em;
+  text-decoration: underline;
+  font-size: 17px; }
 
 .portfolio-content {
   text-align: left;
@@ -812,7 +813,7 @@ textarea {
 
 footer {
   background: #223843;
-  padding: 5em 0;
+  padding: 2em 0;
   text-align: center; }
 
 .social-icons {

@@ -136,13 +136,13 @@
   background-position: center;
 }
 
-.header-one {
-  background-image: url(../img/portfolio-01.jpg);
-}
+// .header-one {
+//   // background-image: url(../img/portfolio-01.jpg);
+// }
 
-.header-two {
-  background-image: url(../img/portfolio-02.jpg);
-}
+// .header-two {
+//   background-image: url(../img/portfolio-02.jpg);
+// }
 
 .portfolio-title-box {
   background: rgba($accent, .75);
@@ -167,6 +167,14 @@
 
 .portfolio-subtitle {
   font-size: 1rem;
+}
+
+.github-repo{
+  color: white;
+  float: right;
+  margin-right: 5em;
+  text-decoration: underline;
+  font-size: 17px;
 }
 
 .portfolio-content {

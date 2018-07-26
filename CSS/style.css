@@ -1,23 +1,37 @@
 .langContainer{
-    width: 75%;
+    width: auto;
     height: 74%;
     display: flex;
-    box-sizing: border-box;
+    flex-direction: row;
+    /*box-sizing: border-box;*/
+    justify-content: space-around; 
+    flex-flow:wrap;
 }
 
 .langContainer .box{
-    width: 20vw;
+    width: 200px;
     text-align: center;
     line-height: 40vh;
-    flex-grow: 1;
     background-image: cover;
     transition: 1s;
+}
+
+@media screen and (max-width: 1200px){
+    .box{
+        width:40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .box{
+        width:90%;
+    }
 }
 
 h4{
     margin: 0;
     padding: 0;
-    line-height: 33vh;
+    line-height: 12.5vh;
     font-size: 1em;
     background: rgba(0,0,0,0.8);
     transition: .5s;
@@ -45,27 +59,41 @@ h4 span{
 }
 
 .box:hover{
-    width: 25vw;
+    width: 225px;
 }
 
 .langContainer .box:nth-child(1){
-    background: url("../img/java.jpg");
+    background: url("../img/java.png");
     background-repeat: no-repeat;
-    background-size: 400px;
+    background-size: 200px;
 }
+
 .langContainer .box:nth-child(2){
     background: url("../img/android.jpg");
     background-repeat: no-repeat;
-    background-size: 240px;
+    background-size: 200px;
 }
+
 .langContainer .box:nth-child(3){
     background: url("../img/js.jpg");
     background-repeat: no-repeat;
-    background-size: 450px;
+    background-size: 200px;
 }
 
 .langContainer .box:nth-child(4){
     background: url("../img/libGDX.jpg");
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 200px;
+}
+
+.langContainer .box:nth-child(5){
+    background: url("../img/firebase.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.langContainer .box:nth-child(6){
+    background: url("../img/angular.jpg");
+    background-repeat: no-repeat;
+    background-size: 200px;
 }
